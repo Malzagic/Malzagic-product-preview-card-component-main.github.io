@@ -115,7 +115,7 @@ body {
   cursor: pointer;
 }
 
-.btn:hover, .btn:active{
+.btn:hover {
   background-color: hsl(158, 36%, 25%);
 }
 
