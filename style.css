@@ -1,3 +1,32 @@
 @media(min-width: 1440px) {
+  .card {
+    width: 32%;
+    height: 55%;
+    flex-direction: row;
+  }
   
+  .card-image {
+    width: 50%;
+    height: 100%;
+  }
+
+  .card-image img {
+    border-radius: 10px 0 0 10px;
+  }
+
+  .card-content {
+    width: 50%;
+  }
+
+  .card-content .short-title {
+    margin-bottom: 2rem;
+  }
+
+  .card-content .main-title {
+    margin-bottom: 2rem;
+  }
+
+  .card-content .text {
+    margin-bottom: 2rem;
+  }
 }

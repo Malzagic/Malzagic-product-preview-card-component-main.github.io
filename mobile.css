@@ -24,9 +24,6 @@ body {
   font-family: var(--Primary-font);
   width: 100vw;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .wrapper {
@@ -39,6 +36,8 @@ body {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   height: 90%;
   background-color: var(--White);
   margin: 1.5rem;
@@ -72,14 +71,16 @@ body {
 }
 
 .card-content .main-title {
+  line-height: 1;
   font-family: var(--Secondary-font);
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
 
 .card-content .text {
+  line-height: 1.5;
   color: var(--Dark-grayish-blue);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .card-content .price {
@@ -117,4 +118,5 @@ body {
   background-color: var(--Dark-cyan);
   color: var(--White);
   font-family: var(--Primary-font);
+  font-weight: bold;
 }

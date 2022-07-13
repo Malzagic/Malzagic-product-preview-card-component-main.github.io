@@ -7,5 +7,4 @@ window.addEventListener('resize', () => {
   } else {
     image.setAttribute('src', './images/image-product-desktop.jpg');
   }
-  console.log(window.innerWidth);
 });
