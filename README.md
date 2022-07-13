@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Malzagic/Malzagic-product-preview-card-component-main.github.io)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/cssflex-html--mCDthZeeu)
 - Live Site URL: [Add live site URL here](https://malzagic.github.io/Malzagic-product-preview-card-component-main.github.io/)
 
 ## My process
