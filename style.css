@@ -39,7 +39,7 @@ body {
   display: flex;
   flex-direction: row;
   width: 600px;
-  height: 400px;
+  height: 500px;
 }
 
 .card-image {
@@ -51,6 +51,8 @@ body {
 }
 
 .card-content {
+  display: flex;
+  flex-direction: column;
   width: 50%;
   background-color: var(--White);
   padding: 25px;
@@ -72,4 +74,63 @@ body {
   font-family: var(--Secondary-font);
   line-height: 1;
   margin-bottom: 2rem;
+}
+
+.card-content .text {
+  font-size: 14px;
+  color: var(--Dark-grayish-blue);
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.card-content .price {
+  display: flex;
+  width: 100%;
+}
+
+.card-content .price h2 {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-family: var(--Secondary-font);
+  color: var(--Dark-cyan);
+  margin-bottom: 2rem;
+}
+
+.card-content .price span {
+  font-size: 14px;
+  text-decoration: line-through;
+  color: var(--Dark-grayish-blue);
+  padding-left: 25px;
+}
+
+.btn {
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  color: var(--White);
+  background-color: var(--Dark-cyan);
+  border: none;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  
+}
+
+.add-to-cart {
+  font-family: var(--Primary-font);
+  position: relative;
+  padding: 15px 60px 15px 80px;
+}
+
+.add-to-cart-img {
+  display: inline-block;
+  background-image: url(./images/icon-cart.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 72px;
+  width: 32px;
+  height: 16px;
 }
